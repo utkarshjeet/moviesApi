@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+
+h3 {
+    color: #fff;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+
+    color: white;
+}
+
+.topnav .search-container {
+    background-color: #131720;
+    float: right;
+
+}
+
+form {
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    all: unset;
+    font-size: 15px system-ui;
+    color: #fff;
+    padding: 6px 9px;
+    width: 100%;
+    height: 100%;
+}
+
+.thumbnail {
+    width: 300px;
+    height: 350px;
+    border-radius: 19px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+
+.card {
+    background-color: #151f30;
+    border-radius: 19px;
+    padding: 10px;
+    text-align: center;
+}
